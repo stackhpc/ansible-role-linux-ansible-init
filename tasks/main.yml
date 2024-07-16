@@ -23,6 +23,7 @@
     - vars
     - playbooks
     - includes
+    - inventory
 
 - name: Install Ansible config file
   copy:
