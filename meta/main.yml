@@ -1,7 +1,6 @@
 ---
 galaxy_info:
   role_name: linux-ansible-init
-  namespace: stackhpc
   author: StackHPC Ltd.
   description: >
     Sets up self-deployment of ansible playbooks on cluster nodes
@@ -9,7 +8,7 @@ galaxy_info:
   license: Apache2
   min_ansible_version: 2.5.0
   galaxy_tags:
-    - ansibleinit
-    - slurm
+    - ansible-init
+    - azimuth
 
 dependencies: []
